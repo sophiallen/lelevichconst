@@ -1,0 +1,209 @@
+
+* {
+	padding: 0;
+	margin: 0;
+	font-family: 'Roboto Slab', serif;
+}
+
+img {
+	padding: 1em;
+	max-width: 25%;
+}
+
+body {
+	background-color: lavender;
+}
+
+p {
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+
+h1 {
+    line-height: 1.5;
+    font-size: 2.074em;
+}
+
+h2 {
+    font-size: 1.728em;
+    margin-top: 8px;
+}
+
+h3 {
+	font-size: 1.44em;
+}
+
+#wrapper h1 {
+	color: saddlebrown;
+	padding: .5em;
+}
+
+
+#topper {
+	height: 40px;
+	background-color: #130E00;
+}
+
+#wrapper {
+	width: 940px;
+	margin: 0 auto 15 auto;
+	background-color: white;
+	border-left: 15px solid lightgray;
+	border-right: 15px solid lightgray;
+	border-bottom: 15px solid lightgray;
+	padding-bottom: 50px;
+	overflow: hidden;
+}
+
+header {
+	height: 112px;
+	background-color: #007f80;
+	box-shadow: 3px 0 8px 4px rgba(51,51,51,.3);
+	color: white;
+}
+
+.right {
+	float:right;
+}
+
+.left {
+	float: left;
+}
+
+#title h1 {
+	padding-bottom: 0px;
+	font-size: 2.07em;
+}
+
+#title {
+	padding-top: 20px;
+}
+
+#phone {
+    padding-top: 20px;
+	text-align: center;
+}
+
+#container1 {
+	width: 940px;
+	margin: 0 auto;
+}
+
+#logo {
+	padding-top: 32px;
+	padding-right: 10px;
+	max-width: 56px;
+}
+
+#nav-contain {
+    width: 940;
+    margin: 0 auto;
+}
+ 
+nav {
+	height: 50px;
+	background-color: #5b6160;
+	color: white;
+	box-shadow: 3px 0 8px 4px rgba(51,51,51,.3);
+}
+
+nav ul{
+	list-style: none;
+	text-align: center;
+	margin: 0 auto;
+    line-height: 50px;
+    max-width: 100%;
+}
+
+nav li {
+	font-size: 24px;
+	float:left;;
+    width: 16.65%;
+	color: beige;
+}
+
+nav a {
+	text-decoration: none;
+	color: beige;
+    display: block;
+}
+
+li a:hover {
+	color: white;
+    background-color: #737373;
+}
+
+hr { 
+  border: 0; 
+  height: 1px; 
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
+}
+
+footer {
+	height: 75px;
+	clear: both;
+	width: 970px;
+	margin: 0 auto;
+}
+
+
+/*ABOUT PAGE*/
+#aboutBanner {
+	padding: 0;
+	margin-left: 1em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	max-width: 580px;
+	float: left;
+}
+
+main.about {
+	margin-top: 1em;
+	width:50%;
+	float: left;
+}
+
+aside.about {
+	width: 15%;
+	height: 295px;
+	float: left;
+	margin: 1em;
+	font-size: 14px;
+	line-height: 30px;
+}
+
+aside.about ul {
+	list-style: none;
+}
+
+aside.about h4 {
+	color: gray;
+}
+
+aside.about a {
+	text-decoration: none;
+	color: gray;
+}
+
+aside.about a:hover {
+	background: none;
+	color: black;
+	text-decoration: underline;
+}
+
+#sidebar {
+	float: right;
+	width: 30%;
+	margin-top: 1em;
+	margin-right: 1em;
+}
+
+#sidebar img {
+	margin: 0;
+	padding: 0;
+	max-width: 100%;
+}
