@@ -11,6 +11,10 @@
 	<link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="css/index.css"/>
     <link rel="shortcut icon" type="image/png" href="images/lelevichicon2.png"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script> <!--jQuery import-->
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/pepper-grinder/jquery-ui.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+	<script src="js/services.js"></script>
 </head>
 <body>
 	<header>
@@ -59,6 +63,8 @@
 			<p><input type="checkbox" name="services[]" value="accessible">ADA accessibility</p>
 			<p class="last"><input type="checkbox" name="services[]" value="custom">Custom</p>
 			<!-- for this php formhandler, the squarebrackets must be included to include all selected  -->
+			<label>Request Appointment Date:</label>
+			<p><input type="text" name="date" placeholder="mm/dd/yyyy" id="datepicker"/></p>
 			<label>Location</label>
 			<select name="City">
 				<option value="select1">Select City</option>

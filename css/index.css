@@ -184,6 +184,7 @@ main {
 	width: 910px;
 	margin: 1em;
 	clear: both;
+	margin-top: 0px;
 }
 
 main h1 {
@@ -438,9 +439,7 @@ input, textarea {
 	line-height: 25px;
 	margin-bottom: 15px;
 }
-#name, #email, #comments {
-	padding-left: 10px;
-}
+
 textarea {
 	margin-bottom: 10px;
 }
