@@ -6,8 +6,9 @@
 }
 
 img {
-	padding: 1em;
-	max-width: 25%;
+	padding-right: 1em;
+	padding-bottom: 1em;
+	max-height: 200px;
 }
 
 body {
@@ -37,6 +38,11 @@ h3 {
 #wrapper h1 {
 	color: saddlebrown;
 	padding: .5em;
+}
+
+#wrapper h2 {
+	margin: 1em auto;
+	width: 80%;
 }
 
 
@@ -119,7 +125,7 @@ nav ul{
 nav li {
 	font-size: 24px;
 	float:left;;
-    width: 16.65%;
+    width: 20%;
 	color: beige;
 }
 
@@ -185,6 +191,29 @@ main.about h2{
 	color: gray;
 	padding: 0px;
 	margin-top: .5em;
+}
+
+#quote {
+	max-width: 75%;
+	margin: 1.5em auto;
+	padding: 25px;
+	background-color: beige;
+	color: #5B6160;
+	font-style: italic;
+}
+
+div#ui-id-2 {
+	max-height: 225px;
+}
+
+#tabs {
+	max-width: 80%;
+	margin: 0 auto;
+	overflow:hidden;
+}
+
+#tabs div {
+	padding-top: 1.5em;
 }
 
 

@@ -10,6 +10,10 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	<link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="css/content.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script> <!--jQuery import-->
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/pepper-grinder/jquery-ui.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+  	<script src="js/services.js"></script>
 </head>
 <body>
 	<header>
@@ -28,61 +32,58 @@
 	<nav>
         <div id="nav-contain">
 		<ul>
-			<li><a href="">About Us</a></li> 
-			<li><a href="">Remodeling</a></li> 
-			<li><a href="">Additions</a></li> 
-			<li><a href="">Carpentry</a></li> 
-			<li><a href="">Repairs</a></li>
+			<li><a href="index.html">Main</a></li> 
+			<li><a href="about2.html">About Us</a></li> 
+			<li><a href="">Services</a></li> 
+			<li><a href="">Gallery</a></li> 
 			<li><a href="">Contact</a></li>
 		</ul>
         </div>
 	</nav>
 	<div id="wrapper">
 		<h1>Remodeling and Rennovations</h1>
-		<hr>
-		<!-- <aside>
-			<h3>Quick Links</h3>
-			<hr>
-			<ul>
-				<li>Kitchens</li>
-				<li>Bathrooms</li>
-				<li>Basements</li>
-				<li>Renovations</li>
-				<li>FAQ</li>
-			</ul>
-		</aside>
-		<div class="infobox" id="quote">
-		<h3>In our customers' words...</h3>
-		<p>"Len is a consummate professional, very experienced in the ins and outs, trials and tribulations of.  is subject so many decisions that need to be made along the way and also subject to my own whimsy and changing desires.  He always goes with the flow and continues to offer suggestions and alternatives until solutions are found. ... I've used him numerous times on projects big and small, and recommend him without reservation."  ~B. Covert</p>
-		</div> -->
-		
-		<div class="infobox">
-			<img src="images/cabinets.jpg" class="left">
-			<h2>Kitchens</h2>
-			<p>Fromage macaroni cheese pepper jack. Babybel queso squirty cheese monterey jack the big cheese stilton who moved my cheese roquefort. Manchego lancashire halloumi queso feta cheesecake manchego danish fontina. Blue castello parmesan hard cheese roquefort everyone loves bavarian bergkase.</p>
-		</div>
-		<div class="infobox">
-			<img src="images/office.jpg" class="left">
-			<h2>Interiors</h2>
-			<p>Fromage macaroni cheese pepper jack. Babybel queso squirty cheese monterey jack the big cheese stilton who moved my cheese roquefort. Manchego lancashire halloumi queso feta cheesecake manchego danish fontina. Blue castello parmesan hard cheese roquefort everyone loves bavarian bergkase.</p>
-		</div>
-		<div class="infobox">
-			<img src="images/remodeling2.jpg" class="left">
-			<h2>Bathrooms</h2>
-			<p>Fromage macaroni cheese pepper jack. Babybel queso squirty cheese monterey jack the big cheese stilton who moved my cheese roquefort. Manchego lancashire halloumi queso feta cheesecake manchego danish fontina. Blue castello parmesan hard cheese roquefort everyone loves bavarian bergkase.</p>
-		</div>
-		<div class="infobox">
-			<img src="images/basement.jpg" class="left">
-			<h2>Basements</h2>
-			<p>Fromage macaroni cheese pepper jack. Babybel queso squirty cheese monterey jack the big cheese stilton who moved my cheese roquefort. Manchego lancashire halloumi queso feta cheesecake manchego danish fontina. Blue castello parmesan hard cheese roquefort everyone loves bavarian bergkase.</p>
-		</div>
-		<div class="infobox">
-			<img src="images/closeblue.jpg" class="left">
-			<h2>Exteriors</h2>
-			<p>Fromage macaroni cheese pepper jack. Babybel queso squirty cheese monterey jack the big cheese stilton who moved my cheese roquefort. Manchego lancashire halloumi queso feta cheesecake manchego danish fontina. Blue castello parmesan hard cheese roquefort everyone loves bavarian bergkase.</p>
-		</div>
-		
 
+		<div id="quote">
+		<p>"Len is a consummate professional, very experienced in the ins and outs, trials and tribulations of remodeling.  I've used him numerous times on projects big and small, and recommend him without reservation."  ~B. Covert</p>
+		</div>
+		<h2>Our Services include:</h2>
+		<div id="tabs">
+			<ul>
+				<li><a href="#tabs-1">Kitchens</a></li>
+				<li><a href="#tabs-2">Interiors</a></li>
+				<li><a href="#tabs-3">Bathrooms</a></li>
+				<li><a href="#tabs-4">Basements</a></li>
+				<li><a href="#tabs-5">Exteriors</a></li>
+			</ul>
+			<div id="tabs-1">
+				<img src="images/cabinets.jpg" class="left">
+				<p>The kitchen is the heart of a home. We can customize your kitchen to your style and needs. We even do custom cabinetry!  Ask for a consultation for ideas on what's possible for your space, or an estimate for those changes you've been waiting to make for years.</p><br/>
+				<p> We can get the job done with minimum mess, so you can enjoy your new kitchen as soon as possible.</p>
+			</div>
+			<div id="tabs-2">
+				<img src="images/office.jpg" class="left">
+				<p>Flooring, moulding, lighting, we do it all! We can help you find new possibilities for any space to increase its comfort, style, and functionality. </p><br/>
+				<p>Check out our gallery for ideas and photos of our past projects. Give us a call! </p>
+			</div>
+			<div id="tabs-3">
+				<img src="images/remodeling2.jpg" class="left">
+				<p>Have a bathroom you'd like to update? We can do everything from beautiful walk-in showers to custom tiling to skylights. Plus, we are the only contractors in the region that are certified to build handicap-accessible showers, sinks, and toilets.</p><br/>
+				<p> We can get the job done in a reasonable amount of time, so that you'll have your bathroom back in working order as soon as possible.</p><br/>
+				<p> Check out our gallery for ideas, and call for a consultation and estimate today!</p>
+			</div>
+			<div id="tabs-4">
+				<img src="images/basement.jpg" class="left">
+				<p>Have a basement that is going unused? Why not consider making the space more bright, comfortable, and functional with a few easy additions? </p><br/>
+				<p>We can do fantastic fireplaces, built-in storage, flooring and lighting that will turn your basement into a room everyone in your family can enjoy. </p><br/>
+				<p>Check out our gallery for ideas, and call for a consultation and estimate today!</p>
+			</div>
+			<div id="tabs-5">
+				<img src="images/closeblue.jpg" class="left">
+				<p>Thinking about selling your home, or interested in adding new color and life to the outside of your home? We have experience in siding, roofing, windows, and more. With a few improvements, we can increase the value and appearance of your home. </p><br/>
+				<p>Let's make your neighbors jealous! </p><br/>
+				<p>Check out our gallery for ideas, and call for a consultation and estimate today!</p>
+			</div>
+		</div>
 	</div>
 	<footer></footer>
 </body>
