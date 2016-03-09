@@ -30,7 +30,7 @@ h2 {
 
 #wrapper {
 	max-width: 940px;
-	margin: 50px auto;
+	margin: 0px auto;
 	margin-bottom: 50px;
 	background-color: white;
 	border-left: 15px solid lightgray;
@@ -81,17 +81,17 @@ header {
 }
 
 #nav-contain {
-    	width: 100%;
+    width: 940px;
    	margin: 0 auto;
 }
  
 nav {
 	color: white;
 	width: 100%;
-	position:absolute;
+	background-color: #5b6160;
 	z-index: 1;
-/*	box-shadow: 3px 0 8px 4px rgba(51,51,51,.3);
-*/	overflow: hidden;
+	box-shadow: 3px 0 8px 4px rgba(51,51,51,.3);
+	overflow: hidden;
 }
 
 nav ul{
@@ -121,26 +121,6 @@ li a:hover {
     	background-color: #737373;
 }
 
-.subnav {
-	line-height: 30px;
-	font-size: 18px;
-}
-
-.subnav li {
-	font-size: 18px;
-	background-color: #5b6160;
-	width: 100%;
-}
-
-.subnav li:hover {
-    background-color: #737373;
-}
-
-.slideshow {
-	width: 590px;
-	margin: 15px 15px 15px 0px;
-	float:right;
-}
 
 aside {
 	height: 389px;
@@ -171,8 +151,10 @@ aside hr, #stats hr {
 }
 
 #stats {
-	padding: 20px 15px;
+	padding: 35px 5px;
 	text-align: center;
+	margin-right: 16px;
+	background-color: beige;
 }
 
 
@@ -190,6 +172,8 @@ main {
 main h1 {
 	text-align: left;
 	color: saddlebrown;
+	font-size: 2.8em;
+	font-weight: 400;
 /*    padding-top: 1em;*/
 }
 
